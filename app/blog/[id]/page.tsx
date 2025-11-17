@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Calendar, Clock, User, Share2, Tag } from "lucide-react";
+import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2, Tag } from "lucide-react";
 import Section from "@/components/ui/Section";
 
 export const dynamic = 'force-dynamic';
@@ -16,6 +16,7 @@ interface BlogPost {
   gradient: string;
   content: string;
 }
+const blogPostsData: BlogPost[] = [
   {
     id: "ai-transformation-2024",
     title: "The AI Transformation: How Businesses Are Leveraging AI in 2024",
@@ -1414,20 +1415,20 @@ Remember: The goal isn't to automate everything—it's to free your team to focu
 ];
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
+  return blogPostsData.map((post) => ({
     id: post.id,
   }));
 }
 
 export default function BlogPostPage({ params }: { params: { id: string } }) {
-  const post = blogPosts.find(p => p.id === params.id);
+  const post = blogPostsData.find(p => p.id === params.id);
 
   if (!post) {
     return (
       <div className="min-h-screen pt-32 pb-24">
         <div className="container-custom text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Post Not Found</h1>
-          <p className="text-gray-600 mb-8">The blog post you're looking for doesn't exist.</p>
+          <p className="text-gray-600 mb-8">The blog post you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/blog" className="text-purple-600 hover:text-purple-700 font-semibold">
             ← Back to Blog
           </Link>
@@ -1521,7 +1522,7 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           <div className="mt-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Articles</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              {blogPosts
+              {blogPostsData
                 .filter(p => p.id !== post.id && p.category === post.category)
                 .slice(0, 2)
                 .map((relatedPost) => (
@@ -1553,7 +1554,7 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           <div className="mt-16 p-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl text-center text-white">
             <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
             <p className="text-xl mb-8 text-white/90">
-              Let's discuss how we can help transform your business with technology
+              Let&apos;s discuss how we can help transform your business with technology
             </p>
             <Link 
               href="/contact"

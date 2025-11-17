@@ -141,7 +141,7 @@ export default function AboutPage() {
       </Section>
 
       {/* Stats */}
-      <Section background="light">
+      <Section background="default">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
@@ -188,7 +188,7 @@ export default function AboutPage() {
       </Section>
 
       {/* Why Choose Us */}
-      <Section background="light">
+      <Section background="default">
         <SectionHeader
           title="Why Partner With Us"
           description="What sets us apart from other development agencies"

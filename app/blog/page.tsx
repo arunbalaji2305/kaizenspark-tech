@@ -118,7 +118,7 @@ export default function BlogPage() {
     <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-purple-100 pt-20">
       <div className="absolute top-20 right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
-      <Section background="transparent">
+      <Section background="default">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Our <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Blog</span>
