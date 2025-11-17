@@ -1,0 +1,244 @@
+{
+  "timestamp": "2025-11-12T09:37:05.759675",
+  "summary": {
+    "total": 33,
+    "passed": 0,
+    "failed": 33,
+    "timeout": 0,
+    "error": 0,
+    "pass_rate": "0.0%"
+  },
+  "results": [
+    {
+      "id": "FT-001",
+      "name": "FT-001 Landing Page Renders Successfully",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-001_Landing_Page_Renders_Successfully.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^"
+    },
+    {
+      "id": "FT-002",
+      "name": "FT-002 Hero Section Displays Correctly",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-002_Hero_Section_Displays_Correctly.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^"
+    },
+    {
+      "id": "FT-003",
+      "name": "FT-003 Social Proof Logos Display",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-003_Social_Proof_Logos_Display.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  "
+    },
+    {
+      "id": "FT-004",
+      "name": "FT-004 Services Cards Display and Navigate",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-004_Services_Cards_Display_and_Navigate.py\", line 80, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+    },
+    {
+      "id": "FT-005",
+      "name": "FT-005 Technology Stack Display",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-005_Technology_Stack_Display.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  Fi"
+    },
+    {
+      "id": "FT-006",
+      "name": "FT-006 Case Study Spotlight",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-006_Case_Study_Spotlight.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \""
+    },
+    {
+      "id": "FT-007",
+      "name": "FT-007 Testimonials Display",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-007_Testimonials_Display.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \""
+    },
+    {
+      "id": "FT-008",
+      "name": "FT-008 CTA Section Button",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-008_CTA_Section_Button.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:"
+    },
+    {
+      "id": "FT-009",
+      "name": "FT-009 Navigation Functionality",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-009_Navigation_Functionality.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  Fi"
+    },
+    {
+      "id": "FT-010",
+      "name": "FT-010 Footer Renders Correctly",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-010_Footer_Renders_Correctly.py\", line 87, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  Fi"
+    },
+    {
+      "id": "FT-011",
+      "name": "FT-011 Contact Form Multi Step Flow",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-011_Contact_Form_Multi_Step_Flow.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n"
+    },
+    {
+      "id": "FT-012",
+      "name": "FT-012 Form Validation",
+      "category": "Functional",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\FT-012_Form_Validation.py\", line 79, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:\\Py"
+    },
+    {
+      "id": "A11Y-001",
+      "name": "A11Y-001 Skip Link Functionality",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-001_Skip_Link_Functionality.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  F"
+    },
+    {
+      "id": "A11Y-002",
+      "name": "A11Y-002 Keyboard Navigation",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-002_Keyboard_Navigation.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File "
+    },
+    {
+      "id": "A11Y-003",
+      "name": "A11Y-003 ARIA Labels and Landmarks",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-003_ARIA_Labels_and_Landmarks.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n "
+    },
+    {
+      "id": "A11Y-004",
+      "name": "A11Y-004 Color Contrast Ratio",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-004_Color_Contrast_Ratio.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File"
+    },
+    {
+      "id": "A11Y-005",
+      "name": "A11Y-005 Image Alt Text",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-005_Image_Alt_Text.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:\\P"
+    },
+    {
+      "id": "A11Y-006",
+      "name": "A11Y-006 Reduced Motion Support",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-006_Reduced_Motion_Support.py\", line 145\r\n    await expect(frame.locator('text=How TechFlow 3x'd Their Revenue with AI-Powered Analytics').first).to_be_visible(timeout=30000)\r\n                                                                                              ^\r\nSyntaxError: unterminated string literal (detected at line 145)\r\n"
+    },
+    {
+      "id": "A11Y-007",
+      "name": "A11Y-007 Heading Hierarchy",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-007_Heading_Hierarchy.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C"
+    },
+    {
+      "id": "A11Y-008",
+      "name": "A11Y-008 Mobile Menu Accessibility",
+      "category": "Accessibility",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\A11Y-008_Mobile_Menu_Accessibility.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n "
+    },
+    {
+      "id": "PERF-001",
+      "name": "PERF-001 Largest Contentful Paint LCP",
+      "category": "Performance",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\PERF-001_Largest_Contentful_Paint_LCP.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^"
+    },
+    {
+      "id": "PERF-002",
+      "name": "PERF-002 Cumulative Layout Shift CLS",
+      "category": "Performance",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\PERF-002_Cumulative_Layout_Shift_CLS.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r"
+    },
+    {
+      "id": "PERF-003",
+      "name": "PERF-003 Interaction to Next Paint INP",
+      "category": "Performance",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\PERF-003_Interaction_to_Next_Paint_INP.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^"
+    },
+    {
+      "id": "PERF-004",
+      "name": "PERF-004 JavaScript Bundle Size",
+      "category": "Performance",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\PERF-004_JavaScript_Bundle_Size.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  Fi"
+    },
+    {
+      "id": "PERF-005",
+      "name": "PERF-005 Image Optimization",
+      "category": "Performance",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\PERF-005_Image_Optimization.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \""
+    },
+    {
+      "id": "SEO-001",
+      "name": "SEO-001 Meta Tags Present",
+      "category": "SEO",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\SEO-001_Meta_Tags_Present.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:"
+    },
+    {
+      "id": "SEO-002",
+      "name": "SEO-002 Heading Structure",
+      "category": "SEO",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\SEO-002_Heading_Structure.py\", line 66, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:"
+    },
+    {
+      "id": "SEC-001",
+      "name": "SEC-001 External Link Security",
+      "category": "Security",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\SEC-001_External_Link_Security.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  Fil"
+    },
+    {
+      "id": "SEC-002",
+      "name": "SEC-002 No Sensitive Data Exposure",
+      "category": "Security",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\SEC-002_No_Sensitive_Data_Exposure.py\", line 143, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n"
+    },
+    {
+      "id": "SEC-003",
+      "name": "SEC-003 Form Security",
+      "category": "Security",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\SEC-003_Form_Security.py\", line 99, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"C:\\Pyt"
+    },
+    {
+      "id": "RES-001",
+      "name": "RES-001 Mobile Layout 375px",
+      "category": "Responsive",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\RES-001_Mobile_Layout_375px.py\", line 65, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r\n  File \""
+    },
+    {
+      "id": "RES-002",
+      "name": "RES-002 Tablet Layout 768px   1024px",
+      "category": "Responsive",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\RES-002_Tablet_Layout_768px___1024px.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\r"
+    },
+    {
+      "id": "RES-003",
+      "name": "RES-003 Desktop Layout 1440px   1920px",
+      "category": "Responsive",
+      "status": "FAILED",
+      "error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\arunb\\Desktop\\Website demo\\testsprite_tests\\RES-003_Desktop_Layout_1440px___1920px.py\", line 64, in <module>\r\n    asyncio.run(run_test())\r\n    ~~~~~~~~~~~^^^^^^^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 204, in run\r\n    return runner.run(main)\r\n           ~~~~~~~~~~^^^^^^\r\n  File \"C:\\Python314\\Lib\\asyncio\\runners.py\", line 127, in run\r\n    return self._loop.run_until_complete(task)\r\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^"
+    }
+  ]
+}
